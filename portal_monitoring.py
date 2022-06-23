@@ -20,8 +20,8 @@ while True:
             time_elapsed=r.get(portal.uri[i],timeout=3).elapsed.total_seconds()
             
         except:
-            status=0
-            time_elapsed=100
+            status=None
+            time_elapsed=None
             
         
         # write to db
