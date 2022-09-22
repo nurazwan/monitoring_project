@@ -7,7 +7,6 @@
     $ \virtualenv_name\Scripts\Activate.ps1
 
     Linux
-    -----
     $ python3 -m venv virtualenv_name
     $ source /virtualenv_name/bin/activate
 
