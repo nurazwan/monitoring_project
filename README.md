@@ -3,13 +3,14 @@
 3. Create and activate virtual environment:
     
     Windows
-    -------
-    python3 -m venv virtualenv_name
-    \virtualenv_name\Scripts\Activate.ps1
+    $ python3 -m venv virtualenv_name
+    $ \virtualenv_name\Scripts\Activate.ps1
 
     Linux
     -----
-    python3 -m venv virtualenv_name
-    source /virtualenv_name/bin/activate
+    $ python3 -m venv virtualenv_name
+    $ source /virtualenv_name/bin/activate
 
-3. Run main.py
+4. Install requirements
+    $ pip install -r requirement.txt
+5. Run main.py
